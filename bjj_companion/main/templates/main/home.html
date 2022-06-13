@@ -1,0 +1,25 @@
+{% extends "main/base.html" %}
+{% block title %}Home{% endblock %}
+{% load static %}
+
+{%block content%}
+
+<div class="container-fluid banner-container d-flex justify-content-center align-items-center">
+  <h1 class="banner-text">BJJ COMPANION</h1>
+  <img class="banner" src="{% static 'images/banner.png' %}" alt="image">
+</div>
+<div class="container tournments-field">
+
+</div>
+<div class="container-fluid d-flex justify-content-center tournments-field">
+  <div class="image-container d-flex justify-content-center">
+    <h1 class="image-text d-block">Standart</h1>
+    <img class="tournment-type" src="{% static 'images/Elimination.png' %}" alt="image">
+  </div>
+  <div class="image-container d-flex justify-content-center">
+    <h1 class="image-text d-block">Elimination</h1>
+    <img class="tournment-type" src="{% static 'images/Standart.png' %}" alt="image">
+  </div>
+</div>
+
+{%endblock%}

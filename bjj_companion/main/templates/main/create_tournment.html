@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+{% block title %}Create Tournment{% endblock %}
+
+{% block content %}
+<form method="POST" action="/create_tournment/" class="participant_form">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" name="Create_Participant">
+</form>
+
+{% for participant in participants %}
+<h1>{{ participant }}</h1>
+{% endfor %}
+{% endblock %}

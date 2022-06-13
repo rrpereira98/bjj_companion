@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(/static/fonts/Roboto-Bold.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #242424;
+}
+
+.navbar {
+    background-color: #242424;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.banner-container {
+    padding: 0;
+}
+
+.banner-text {
+    position: absolute;
+    height: auto;
+    margin-top: 1%;
+    color: #CACACA;
+    font-family: "Roboto-bold";
+    font-size: 7em;
+}
+
+.banner {
+    max-width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.tournments-field {
+    background: rgb(36, 36, 36);
+    background: linear-gradient(0deg, rgba(36, 36, 36, 1) 0%, rgba(17, 17, 17, 1) 81%);
+}
+
+.image-container {
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.tournment-type {
+    width: 100%;
+}
+
+.image-text {
+    position: absolute;
+    height: auto;
+    margin-top: 1%;
+    color: #AEAEAE;
+    font-family: "Roboto-bold";
+    font-size: 4em;
+}
+
+
+
+.image-text:hover {
+    color: #CACACA;
+}
+
+/* create tournment page */
+.participant_form {
+    padding-top: 100px;
+}
+
+h1 {
+    color: #CACACA;
+}
